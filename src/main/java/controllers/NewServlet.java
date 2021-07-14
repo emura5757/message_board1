@@ -15,13 +15,13 @@ import models.Message;
  * Servlet implementation class newServlet
  */
 @WebServlet("/new")
-public class newServlet extends HttpServlet {
+public class NewServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public newServlet() {
+    public NewServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
